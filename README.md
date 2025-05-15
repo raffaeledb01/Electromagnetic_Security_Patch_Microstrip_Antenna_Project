@@ -11,14 +11,17 @@ The goal of the project was to investigate the electromagnetic behavior of dipol
 
 ## 📁 Repository Contents
 
-├── 📁CST_Dipole_Project       #CST files
+
+```
+
+├── 📁 CST_Dipole_Project       #CST files
 │ ├──📁 File CST/
 │ │   ├── double_dipole.cst    #two dipoles model
 │ │   ├── shield_aperture.cst  #two dipoles surrounded by a shield with an aperture
 │ │   ├── shield_box.cst       #two dipoles surrounded by a shield
 │ │   └── single_dipole.cst    #single dipole model
 │ │
-│ └──📁Script Matlab/                           #Matlab scripts for cst result analysis
+│ └──📁 Script Matlab/                           #Matlab scripts for cst result analysis
 │    ├── emc_box.m                              #script for plotting radiated field vs limits with full shield
 │    ├── emc_box_with_aperture_only_5GHz.m      #script for plotting radiated field vs limits with shield with aperture at 5GHz
 │    ├── emc_box_with_aperture_sweep.m          #script for plotting radiated field vs limits with shield with aperture (freq. sweep)
@@ -38,6 +41,8 @@ The goal of the project was to investigate the electromagnetic behavior of dipol
 ├── Electromagnetic Security Report.pdf        #report
 ├── LICENSE
 └── README.md
+
+```
 
 ---
 
